@@ -1,3 +1,9 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
 ## Projects
 
 ### HuggingFace RESTful API Deployment
