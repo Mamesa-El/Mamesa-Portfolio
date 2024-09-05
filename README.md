@@ -31,34 +31,35 @@ solutions that included properties and clustering analysis.
 ## Projects
 
 ### HuggingFace RESTful API Deployment
-<p align="center">
-    <!--Hugging Face-->
-        <img src="https://user-images.githubusercontent.com/1393562/197941700-78283534-4e68-4429-bf94-dce7ab43a941.svg" width=7%>
-    <!--PLUS SIGN-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width=7%>
-    <!--FAST API-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876570-16dff98d-ccea-4a57-86ef-a161539074d6.svg" width=7%>
-    <!--PLUS SIGN-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width=7%>
-    <!--REDIS LOGO-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876644-501591b7-809b-469f-b039-bb1a287ed36f.svg" width=7%>
-    <!--PLUS SIGN-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width=7%>
-    <!--KUBERNETES-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876683-9c9d4f44-b9b2-46f0-a631-308e5a079847.svg" width=7%>
-    <!--PLUS SIGN-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width=7%>
-    <!--Azure-->
-        <img src="https://user-images.githubusercontent.com/1393562/192114198-ac03d0ef-7fb7-4c12-aba6-2ee37fc2dcc8.svg" width=7%>
-    <!--PLUS SIGN-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width=7%>
-    <!--K6-->
-        <img src="https://user-images.githubusercontent.com/1393562/197683208-7a531396-6cf2-4703-8037-26e29935fc1a.svg" width=7%>
-    <!--PLUS SIGN-->
-        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width=7%>
-    <!--GRAFANA-->
-        <img src="https://user-images.githubusercontent.com/1393562/197682977-ff2ffb72-cd96-4f92-94d9-2624e29098ee.svg" width=7%>
-</p>
+<div style="text-align: center;">
+    <!-- Hugging Face -->
+    <img src="https://user-images.githubusercontent.com/1393562/197941700-78283534-4e68-4429-bf94-dce7ab43a941.svg" width="7%" alt="Hugging Face">
+    <!-- PLUS SIGN -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+    <!-- FAST API -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876570-16dff98d-ccea-4a57-86ef-a161539074d6.svg" width="7%" alt="Fast API">
+    <!-- PLUS SIGN -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+    <!-- REDIS LOGO -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876644-501591b7-809b-469f-b039-bb1a287ed36f.svg" width="7%" alt="Redis Logo">
+    <!-- PLUS SIGN -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+    <!-- KUBERNETES -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876683-9c9d4f44-b9b2-46f0-a631-308e5a079847.svg" width="7%" alt="Kubernetes">
+    <!-- PLUS SIGN -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+    <!-- Azure -->
+    <img src="https://user-images.githubusercontent.com/1393562/192114198-ac03d0ef-7fb7-4c12-aba6-2ee37fc2dcc8.svg" width="7%" alt="Azure">
+    <!-- PLUS SIGN -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+    <!-- K6 -->
+    <img src="https://user-images.githubusercontent.com/1393562/197683208-7a531396-6cf2-4703-8037-26e29935fc1a.svg" width="7%" alt="K6">
+    <!-- PLUS SIGN -->
+    <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+    <!-- Grafana -->
+    <img src="https://user-images.githubusercontent.com/1393562/197682977-ff2ffb72-cd96-4f92-94d9-2624e29098ee.svg" width="7%" alt="Grafana">
+</div>
+
 
 In this project, I deployed a machine learning model using **Hugging Face transformers** on **Microsoft Azure Kubernetes Service (AKS)**. The model was made accessible via RESTful APIs, and I implemented **Prometheus** and **Grafana** for real-time monitoring of key performance metrics, such as request throughput and latency. The integration of **FastAPI** enabled rapid unit testing to ensure the robustness of the API endpoints.
 
