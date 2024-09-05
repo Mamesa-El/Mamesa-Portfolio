@@ -5,5 +5,4 @@ theme: jekyll-theme-minimal
 
 # Navigation Links
 header_pages:
-  - index.md  # This will be your home page or about me page
-  - projects.md  # This will link to your projects page
+  - projects.md  # Add the Projects page to the navigation
