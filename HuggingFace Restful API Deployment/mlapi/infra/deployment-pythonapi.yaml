@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-python-api # Deployment
+  namespace: w255
+  # labels:
+  #   app: apps-deployment 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apps-deployment
+  template:
+    metadata:
+      labels:
+        app: apps-deployment
+    spec:
+      initContainers:
+      - name: check-redis-service-dns
+        image: busybox:1.28
+        command: 
+        - "sh"
+        - "-c"
+        - "until nslookup redis-service.w255.svc.cluster.local; do echo waiting for redis service; sleep 2; done"
+      - name: check-redis-ping
+        image: busybox:1.28
+        command:
+        - "sh"
+        - "-c"
+        - "until echo 'PING' | nc redis-service 6379 | grep PONG; do echo waiting for redis pong; sleep 2; done"
+      containers:
+      - name: apps-deployment # initializing pod name
+        image: my-api
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8000
+        env:
+        - name: REDIS_HOST
+          value: "redis://redis-service:6379"
+        startupProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          failureThreshold: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          failureThreshold: 30
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          failureThreshold: 30
+          periodSeconds: 10
