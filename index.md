@@ -1,8 +1,3 @@
----
-layout: page
-title: About Me
-permalink: /
----
 # Data Scientist
 
 #### Technical Skills:
