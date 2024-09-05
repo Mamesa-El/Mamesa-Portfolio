@@ -2,3 +2,8 @@ title: Mamesa El
 logo: /Images/half_body_photo.jpg
 show_download: true
 theme: jekyll-theme-minimal
+
+# Navigation Links
+header_pages:
+  - index.md  # This will be your home page or about me page
+  - projects.md  # This will link to your projects page
