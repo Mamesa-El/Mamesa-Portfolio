@@ -60,7 +60,6 @@ solutions that included properties and clustering analysis.
     <img src="https://user-images.githubusercontent.com/1393562/197682977-ff2ffb72-cd96-4f92-94d9-2624e29098ee.svg" width="7%" alt="Grafana">
 </div>
 
-
 In this project, I deployed a machine learning model using **Hugging Face transformers** on **Microsoft Azure Kubernetes Service (AKS)**. The model was made accessible via RESTful APIs, and I implemented **Prometheus** and **Grafana** for real-time monitoring of key performance metrics, such as request throughput and latency. The integration of **FastAPI** enabled rapid unit testing to ensure the robustness of the API endpoints.
 
 #### Performance Overview
@@ -95,15 +94,15 @@ Figure 2 illustrates the real-time performance of services, allowing me to track
 ### Data Analysis for Trending Content and Top Influencers on Social Media Platforms
 <div style="text-align: center;">
     <!-- Python -->
-    <img src="./Images/Python-logo-notext.svg" width="7%" alt="Hugging Face">
+    <img src="./Images/Python-logo-notext.svg" width="7%" alt="Python">
     <!-- PLUS SIGN -->
     <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
     <!-- Jupyter Notebook -->
-    <img src="./Images/Jupyter_logo.png" width="7%" alt="Jypter">
+    <img src="./Images/Jupyter_logo.png" width="7%" alt="Jupyter">
     <!-- PLUS SIGN -->
     <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
     <!-- Github -->
-    <img src="./Images/GitHub_Invertocat_Logo.png" width="7%" alt="Github">
+    <img src="./Images/GitHub_Invertocat_Logo.png" width="7%" alt="GitHub">
 </div>
 
 This project analyzed social media influencers on platforms like Instagram, YouTube, and TikTok to understand engagement patterns and identify key factors contributing to influencer success. Using data from Kaggle, I focused on analyzing influencer categories, engagement metrics, and subscriber growth.
@@ -122,3 +121,14 @@ Dominant Categories: The Music and Music & Dance categories were the most popula
 
 **Technical Highlights**: Cleaned and normalized the dataset by removing duplicates and converting values with abbreviations (e.g., 'M', 'K') into numeric formats.
 Applied Box-Cox Transformation to normalize skewed data distributions (*shown in figure 1*), improving the accuracy of correlation analysis and predictive modeling.
+
+## Connect with Me
+
+<div style="text-align: center;">
+    <a href="https://github.com/yourusername" target="_blank">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40" alt="GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/LinkedIn_Logo.svg" width="40" alt="LinkedIn">
+    </a>
+</div>
