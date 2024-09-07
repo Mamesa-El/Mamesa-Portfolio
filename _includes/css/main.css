@@ -186,9 +186,13 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+/* section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+} */
+ section.success {
+    color: #fff;
+    background: #333;
 }
 
 @media(max-width:767px) {
