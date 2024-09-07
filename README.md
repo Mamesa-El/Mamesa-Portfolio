@@ -122,7 +122,7 @@ Dominant Categories: The Music and Music & Dance categories were the most popula
 **Technical Highlights**: Cleaned and normalized the dataset by removing duplicates and converting values with abbreviations (e.g., 'M', 'K') into numeric formats.
 Applied Box-Cox Transformation to normalize skewed data distributions (*shown in figure 1*), improving the accuracy of correlation analysis and predictive modeling.
 
-## Connect with Me
+<!-- ## Connect with Me
 
 <div style="text-align: center;">
     <a href="https://github.com/yourusername" target="_blank">
@@ -131,4 +131,4 @@ Applied Box-Cox Transformation to normalize skewed data distributions (*shown in
     <a href="https://www.linkedin.com/in/yourusername" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/LinkedIn_Logo.svg" width="40" alt="LinkedIn">
     </a>
-</div>
+</div> -->
