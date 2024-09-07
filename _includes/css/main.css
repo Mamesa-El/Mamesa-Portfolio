@@ -263,7 +263,6 @@ section h2 {
 }
 
 /* Flexbox Portfolio Grid */
-/* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
@@ -274,24 +273,14 @@ section h2 {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 49%;
       max-width: 49%;
-      height: 650px; /* Fixed height */
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
-}
-
-@media (min-width: 960px) {
+  }
+  @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 32%;
       max-width: 32%;
-      height: 650px; /* Fixed height */
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
-}
-
+  }
   /* A large grid might need four columns on widescreen layouts */
   /* @media (min-width: 1380px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
