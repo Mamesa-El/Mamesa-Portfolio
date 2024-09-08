@@ -27,7 +27,7 @@ full_content: |
     Using **Prometheus** and **Grafana** dashboards, I tracked and optimized resource usage while maintaining high performance under stress testing. The results of the testing revealed a system latency of under 10 microseconds and a throughput exceeding 100 requests per second.
 
     <div style="text-align: center;">
-        ![K6 Load Test Results](img/Projects Photo/HuggingFace Restful API/K6 Logs 1.png)
+        <img src="img/Projects Photo/HuggingFace Restful API/K6 Logs 1.png" alt="K6 Load Test Results" style="max-width: 100%; height: auto;">
     </div>
 
     *Figure 1: Load test results showing HTTP request durations, latency, and throughput under heavy load.*
@@ -37,7 +37,7 @@ full_content: |
     To monitor the real-time performance and health of services, I used **Grafana dashboards** integrated with **Prometheus**. This allowed for detailed monitoring of incoming requests, latency, and throughput. Below is a key dashboard showing service performance:
 
     <div style="text-align: center;">
-        ![Service Workload Dashboard](img/Projects Photo/HuggingFace Restful API/SVC Service Workload 1.png)
+        <img src="img/Projects Photo/HuggingFace Restful API/SVC Service Workload 1.png" alt="Service Workload Dashboard" style="max-width: 100%; height: auto;">
     </div>
 
     *Figure 2: Service workload dashboard monitoring the latency and throughput for requests across various service workloads.*
