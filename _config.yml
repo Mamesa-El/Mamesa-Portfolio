@@ -1,10 +1,10 @@
 # Site settings
 title: Data Scientist
-email: Mamesa El
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+email: mamesa.el@berkeley.edu
+url:  https://github.com/Mamesa-El/Mamesa-Portfolio
+description: "Accomplished Data Scientist specializing in machine learning, NLP, and generative AI solutions. Proficient in Python, TensorFlow, PyTorch, and AWS SageMaker, with expertise in predictive analytics and real-world AI/ML applications."
+keywords: "Data Scientist, Machine Learning, NLP, Python, TensorFlow, PyTorch, AWS SageMaker, AI, Predictive Analytics, RAG, LLM"
+skills: "Data Scientist - AI/ML Engineer - NLP Specialist"
 meta_author: Mamesa El
 
 # Google webmaster tools
