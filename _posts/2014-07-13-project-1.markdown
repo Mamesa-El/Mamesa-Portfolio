@@ -51,8 +51,6 @@ The performance of the API was thoroughly tested using **k6.io** load testing. B
 
 *Figure 1: Load test results showing HTTP request durations, latency, and throughput under heavy load.*
 
-The figure above (Figure 1) showcases the **K6** load testing results, highlighting metrics such as request duration and iterations per virtual user. These metrics helped identify bottlenecks and optimize the system’s performance further.
-
 #### Service Monitoring
 
 To monitor the real-time performance and health of services, I used **Grafana dashboards** integrated with **Prometheus**. This allowed for detailed monitoring of incoming requests, latency, and throughput. Below is a key dashboard showing service performance:
