@@ -46,7 +46,7 @@ full_content: |
 
     *Figure 2: Distribution plot of the tops influencer cateogories.*
 
-    **Finding and Achievements:
+    **Finding and Achievements:**
 
     Dominant Categories: The Music and Music & Dance categories were the most popular (*shown in figure 2*), with Instagram and YouTube influencers in these categories having the highest total follower counts.
 
