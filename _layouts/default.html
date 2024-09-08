@@ -4,7 +4,7 @@
 
 <body id="page-top" class="index">
   {% include nav.html %}
-
+  
   {% include header.html %}
   
   <!-- Render content from the specific page -->
@@ -12,13 +12,8 @@
     {{ content }}
   </main>
 
-  <!-- Only include these files on the specific pages they belong to -->
-  {% if page.layout == "portfolio" %}
-    {% include portfolio_grid.html %}
-  {% elsif page.layout == "about" %}
-    {% include about.html %}
-  {% endif %}
-
+  <!-- Remove the manual includes for the sections that are already rendered by {{ content }} -->
+  
   {% if site.contact == "static" %}
     {% include contact_static.html %}
   {% elsif site.contact == "disqus" %}
