@@ -14,14 +14,16 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" style="max-width: 600px; height: auto; display: block; margin: 0 auto;">
+            
             {% if post.full_content %}
-            <div>
+            <div style="text-align: left;">
               {{ post.full_content | markdownify }} <!-- Renders markdown content as HTML -->
             </div>
             {% else %}
-            <p>{{ post.description }}</p>
+            <p style="text-align: left;">{{ post.description }}</p>
             {% endif %}
+            
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -47,6 +49,7 @@
   </div>
 </div>
 {% endfor %}
+
 
 <!-- Portfolio Modals
 {% for post in site.posts %}
