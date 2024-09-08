@@ -5,15 +5,12 @@
 <body id="page-top" class="index">
   {% include nav.html %}
   
-  {% include header.html %}
-  
-  <!-- Render content from the specific page -->
+  <!-- Render header content from the specific page -->
   <main>
     {{ content }}
   </main>
 
-  <!-- Remove the manual includes for the sections that are already rendered by {{ content }} -->
-  
+  <!-- Contact Section -->
   {% if site.contact == "static" %}
     {% include contact_static.html %}
   {% elsif site.contact == "disqus" %}
@@ -28,6 +25,7 @@
 </body>
 
 </html>
+
 
 
 
