@@ -6,7 +6,7 @@ date: 2014-07-18
 img: plane.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
+# client: Start Bootstrap
 category: End-to-End-Machine Learning
 full_content: |
 
@@ -39,7 +39,7 @@ full_content: |
         <img src="https://user-images.githubusercontent.com/1393562/197682977-ff2ffb72-cd96-4f92-94d9-2624e29098ee.svg" width="7%" alt="Grafana">
     </div>
     **Summary**:
-    In this project, I deployed a machine learning model using **Hugging Face transformers** on **Microsoft Azure Kubernetes Service (AKS)**. The model was made accessible via RESTful APIs, and I implemented **Prometheus** and **Grafana** for real-time monitoring of key performance metrics, such as request throughput and latency. The integration of **FastAPI** enabled rapid unit testing to ensure the robustness of the API endpoints. <br/>
+    In this project, I deployed a machine learning model using Hugging Face transformers on Microsoft Azure Kubernetes Service (AKS The model was made accessible via RESTful APIs, and I implemented Prometheus and Grafana for real-time monitoring of key performance metrics, such as request throughput and latency. The integration of FastAPI enabled rapid unit testing to ensure the robustness of the API endpoints. <br/>
 
     **Scope**:
     - Model Development
@@ -51,7 +51,7 @@ full_content: |
 
     **Performance Overview**:
 
-    Using **Prometheus** and **Grafana** dashboards, I tracked and optimized resource usage while maintaining high performance under stress testing. The results of the testing revealed a system latency of under 10 microseconds and a throughput exceeding 100 requests per second.
+    Using Prometheus and Grafana dashboards, I tracked and optimized resource usage while maintaining high performance under stress testing. The results of the testing revealed a system latency of under 10 microseconds and a throughput exceeding 100 requests per second.
 
     <div style="text-align: center;">
         <img src="img/Projects Photo/HuggingFace Restful API/K6 Logs 1.png" alt="K6 Load Test Results" style="max-width: 100%; height: auto;">
@@ -61,7 +61,7 @@ full_content: |
 
     #### Service Monitoring
 
-    To monitor the real-time performance and health of services, I used **Grafana dashboards** integrated with **Prometheus**. This allowed for detailed monitoring of incoming requests, latency, and throughput. Below is a key dashboard showing service performance:
+    To monitor the real-time performance and health of services, I used Grafana dashboards integrated with Prometheus This allowed for detailed monitoring of incoming requests, latency, and throughput. Below is a key dashboard showing service performance:
 
     <div style="text-align: center;">
         <img src="img/Projects Photo/HuggingFace Restful API/SVC Service Workload 1.png" alt="Service Workload Dashboard" style="max-width: 100%; height: auto;">
