@@ -3,12 +3,12 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
- 
+
 /* --------------------------
    List Styles
 -------------------------- */
 ul, ol {
-    font-size: 16px; /* Adjust this size as needed */
+    font-size: 20px !important;
 }
 
 body {
