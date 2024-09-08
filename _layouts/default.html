@@ -12,7 +12,7 @@
     {{ content }}
   </main>
 
-  <!-- Remove these if sections are already rendered by {{ content }} -->
+  <!-- Only include these files on the specific pages they belong to -->
   {% if page.layout == "portfolio" %}
     {% include portfolio_grid.html %}
   {% elsif page.layout == "about" %}
@@ -33,6 +33,7 @@
 </body>
 
 </html>
+
 
 
 <!-- <!DOCTYPE html>
