@@ -47,7 +47,7 @@ full_content: |
 
     The performance of the API was thoroughly tested using **k6.io** load testing. Below is a snapshot of the load test result:
 
-    ![K6 Load Test Results](./HuggingFace%20Restful%20API%20Deployment/grafana_image/K6%20Logs.png)
+    ![K6 Load Test Results](img/Projects Photo/HuggingFace Restful API/K6 Logs.png)
 
     *Figure 1: Load test results showing HTTP request durations, latency, and throughput under heavy load.*
 
@@ -55,7 +55,7 @@ full_content: |
 
     To monitor the real-time performance and health of services, I used **Grafana dashboards** integrated with **Prometheus**. This allowed for detailed monitoring of incoming requests, latency, and throughput. Below is a key dashboard showing service performance:
 
-    ![Service Workload Dashboard](./HuggingFace%20Restful%20API%20Deployment/grafana_image/SVC%20Service%20Workload.png)
+    ![Service Workload Dashboard](img/Projects Photo/HuggingFace Restful API/SVC Service Workload.png)
 
     *Figure 2: Service workload dashboard monitoring the latency and throughput for requests across various service workloads.*
 
