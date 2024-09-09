@@ -39,7 +39,30 @@ full_content: |
         
     <div style="text-align: left;">
         <h6 class="section-title">Project Summary:</h6>
-        <p>This project focused on reducing United Airlines flight delays by analyzing flight and weather data. Using datasets from the U.S. Department of Transportation and the National Oceanic and Atmospheric Administration (NOAA), the team processed over 12 million records. The main objective was to engineer features and select the optimal model to predict flight delays effectively.</p>
+        <p>
+        Flight delays pose a significant challenge within the airline industry, affecting both passengers' travel experiences and airlines' operational efficiency. As representatives of United Airlines, we recognize that mitigating flight delays is not only crucial for ensuring a smooth journey for our customers but also for maintaining our reputation and optimizing resources. According to data from the Bureau of Transportation Statistics (BTS), approximately 22.09% of United flights experienced delays in 2023. These delays can lead to financial losses, customer dissatisfaction, and operational disruptions, making it imperative for us to take proactive steps to address this issue.
+        
+        This project focused on reducing United Airlines flight delays by analyzing flight and weather data. Using datasets from the U.S. Department of Transportation and the National Oceanic and Atmospheric Administration (NOAA), the team processed over 12 million records. The main objective was to engineer features and select the optimal model to predict flight delays effectively.</p>
+    </div>
+
+    <div style="text-align: left;">
+        <h6 class="section-title">Data Summary:</h6>
+        <ol>
+            <li>Data Size
+                <ul>
+                    <li>3 months: 1,401,363 rows</li>
+                    <li>12 months: 5,811,854 rows</li>
+                    <li> 60 months: 12, 926, 912 rows</li>
+                </ul>
+            </li>
+            <li>29 Features
+                <ul>
+                    <li>6 numeric features</li>
+                    <li>6 categorical features</li>
+                    <li>7 features from PCA (from 17 numerical features)</li>
+                </ul>
+            </li>
+        </ol>
     </div>
 
     <div style="text-align: left;">
