@@ -4,14 +4,13 @@ modal-id: 1
 title: "HuggingFace RESTful API Deployment"
 date: 2014-07-18
 img: Sentiment_Analysis.png
-alt: image-alt
-project-date: April 2014
-# client: Start Bootstrap
-category: End-to-End-Machine Learning
+alt: "Sentiment Analysis"
+project-date: "April 2014"
+category: "End-to-End Machine Learning"
 full_content: |
 
     <div style="text-align: center;">
-    <!-- Hugging Face -->
+        <!-- Hugging Face -->
         <img src="https://user-images.githubusercontent.com/1393562/197941700-78283534-4e68-4429-bf94-dce7ab43a941.svg" width="7%" alt="Hugging Face">
         <!-- PLUS SIGN -->
         <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
@@ -38,45 +37,66 @@ full_content: |
         <!-- Grafana -->
         <img src="https://user-images.githubusercontent.com/1393562/197682977-ff2ffb72-cd96-4f92-94d9-2624e29098ee.svg" width="7%" alt="Grafana">
     </div>
-    **Summary**:
-    In this project, I deployed a machine learning model using Hugging Face transformers on Microsoft Azure Kubernetes Service (AKS The model was made accessible via RESTful APIs, and I implemented Prometheus and Grafana for real-time monitoring of key performance metrics, such as request throughput and latency. The integration of FastAPI enabled rapid unit testing to ensure the robustness of the API endpoints. <br/>
 
-    **Scope**:
-    - Model Development
-    - API Deployment
-    - Monitoring and Scaling
+    <div style="text-align: left;">
+        <h6 class="section-title">Summary:</h6>
+        <p>
+            In this project, I deployed a machine learning model using Hugging Face transformers on Microsoft Azure Kubernetes Service (AKS). The model was made accessible via RESTful APIs, and I implemented Prometheus and Grafana for real-time monitoring of key performance metrics, such as request throughput and latency. The integration of FastAPI enabled rapid unit testing to ensure the robustness of the API endpoints.
+        </p>
 
-    **Technology Used**:
-    - Python, FastAPI, HuggingFace, Redis, Azure Kubernetes, Prometheus, Grafana, Docker
+        <h6 class="section-title">Scope:</h6>
+        <ul>
+            <li>Model Development</li>
+            <li>API Deployment</li>
+            <li>Monitoring and Scaling</li>
+        </ul>
 
-    **Performance Overview**:
+        <h6 class="section-title">Technology Used:</h6>
+        <ul>
+            <li>Python, FastAPI, HuggingFace, Redis, Azure Kubernetes, Prometheus, Grafana, Docker</li>
+        </ul>
 
-    Using Prometheus and Grafana dashboards, I tracked and optimized resource usage while maintaining high performance under stress testing. The results of the testing revealed a system latency of under 10 microseconds and a throughput exceeding 100 requests per second.
-
-    <div style="text-align: center;">
-        <img src="img/Projects Photo/HuggingFace Restful API/K6 Logs 1.png" alt="K6 Load Test Results" style="max-width: 100%; height: auto;">
+        <h6 class="section-title">Performance Overview:</h6>
+        <p>
+            Using Prometheus and Grafana dashboards, I tracked and optimized resource usage while maintaining high performance under stress testing. The results of the testing revealed a system latency of under 10 microseconds and a throughput exceeding 100 requests per second.
+        </p>
     </div>
 
-    *Figure 1: Load test results showing HTTP request durations, latency, and throughput under heavy load.*
-
-    #### Service Monitoring
-
-    To monitor the real-time performance and health of services, I used Grafana dashboards integrated with Prometheus This allowed for detailed monitoring of incoming requests, latency, and throughput. Below is a key dashboard showing service performance:
-
     <div style="text-align: center;">
-        <img src="img/Projects Photo/HuggingFace Restful API/SVC Service Workload 1.png" alt="Service Workload Dashboard" style="max-width: 100%; height: auto;">
+        <img src="img/Projects/K6 Logs 1.png" alt="K6 Load Test Results" style="max-width: 100%; height: auto;">
     </div>
 
-    *Figure 2: Service workload dashboard monitoring the latency and throughput for requests across various service workloads.*
+    <div style="text-align: left;">
+        <em>Figure 1: Load test results showing HTTP request durations, latency, and throughput under heavy load.</em>
+        <br>
+        <h6 class="section-title">Service Monitoring:</h6>
+        <p>
+            To monitor the real-time performance and health of services, I used Grafana dashboards integrated with Prometheus. This allowed for detailed monitoring of incoming requests, latency, and throughput. Below is a key dashboard showing service performance:
+        </p>
+    </div>
 
-    **Metrics**:
-    - Handled 100+ requests per second with latency under 10 microseconds
-    - Improved API throughput by 20%
+    <div style="text-align: center;">
+        <img src="img/Projects/SVC Service Workload 1.png" alt="Service Workload Dashboard" style="max-width: 100%; height: auto;">
+    </div>
 
-    **Challenges**:
-    Faced deployment challenges in optimizing resource usage during high traffic times. Implemented autoscaling based on traffic monitoring data from Prometheus.
+    <div style="text-align: left;">
+        <em>Figure 2: Service workload dashboard monitoring the latency and throughput for requests across various service workloads.</em>
+        <br>
+        <h6 class="section-title">Metrics:</h6>
+        <ul>
+            <li>Handled 100+ requests per second with latency under 10 microseconds</li>
+            <li>Improved API throughput by 20%</li>
+        </ul>
 
-    **Performance/Key Achievements**:
-    - Reduced latency to under 10 microseconds during peak load times
-    - Successfully deployed a scalable API that handled over 100 requests per second
+        <h6 class="section-title">Challenges:</h6>
+        <p>
+            Faced deployment challenges in optimizing resource usage during high traffic times. Implemented autoscaling based on traffic monitoring data from Prometheus.
+        </p>
+
+        <h6 class="section-title">Achievements:</h6>
+        <ul>
+            <li>Reduced latency to under 10 microseconds during peak load times</li>
+            <li>Successfully deployed a scalable API that handled over 100 requests per second</li>
+        </ul>
+    </div>
 ---

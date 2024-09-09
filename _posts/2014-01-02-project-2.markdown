@@ -1,11 +1,69 @@
 ---
 layout: default
 modal-id: 2
+title: Social Media Platform Analysis
 date: 2014-07-17
 img: social_media.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Data Science/Data Analysis
+full_content: |
+
+    <div style="text-align: center;">
+        <!-- Python -->
+        <img src="img/python-logo-only.png" width="7%" alt="Hugging Face">
+        <!-- PLUS SIGN -->
+        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+        <!-- Jupyter Notebook -->
+        <img src="img/Jupyter_logo.png" width="7%" alt="Jypter">
+        <!-- PLUS SIGN -->
+        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+        <!-- Github -->
+        <img src="img/GitHub_Invertocat_Logo.png" width="7%" alt="Github">
+    </div>
+
+    <div style="text-align: left;">
+        <h6 class="section-title">Summary:</h6>
+        <p>
+            This project analyzed social media influencers on platforms like Instagram, YouTube, and TikTok to understand engagement patterns and identify key factors contributing to influencer success. Using data from Kaggle, I focused on analyzing influencer categories, engagement metrics, and subscriber growth.
+        </p>
+
+        <h6 class="section-title">Scope:</h6>
+        <ul>
+            <li>Exploratory Data Analysis</li>
+            <li>Data Wrangling</li>
+            <li>Statistical Analysis</li>
+        </ul>
+
+        <h6 class="section-title">Technology Used:</h6>
+        <ul>
+            <li>Python, GitHub, Jupyter Notebook, Statistics</li>
+        </ul>
+
+        <h6 class="section-title">Statistical Techniques:</h6>
+        <p>
+            I cleaned and normalized the dataset by removing duplicates and converting values with abbreviations (e.g., 'M', 'K') into numeric formats. Applied Box-Cox Transformation to normalize skewed data distributions (*shown in figure 1*), improving the accuracy of correlation analysis and predictive modeling.
+        </p>
+
+    <div style="text-align: center;">
+        <img src="img/Projects/box_cox_transformation.png" alt="box-cox-transformation" style="max-width: 100%; height: auto;">
+    </div>
+
+    <div style="text-align: left;">
+    <em>Figure 1: Box-Cox Transformation was implemented to handle the skewed data distribution.</em>
+
+    <div style="text-align: center;">
+        <img src="img/Projects/Top Genres.png" alt="top_genres" style="max-width: 100%; height: auto;">
+    </div>
+    <div style="text-align: left;">
+    <em>Figure 2: Distribution plot of the tops influencer cateogories.</em>
+
+    <h6 class="section-title">Finding and Achievements:</h6>
+    <ul>
+        <li>The Music and Music & Dance categories were the most popular (*shown in figure 2*), with Instagram and YouTube influencers in these categories having the highest total follower counts.</li>
+
+        <li>There was a strong correlation between Authentic Engagement and Average Engagement on Instagram, indicating that influencers with high-quality interactions receive higher overall engagement.</li>
+
+        <li>Instagram was the top platform by total followers, followed by YouTube and TikTok.</li>
+    </ul>
 ---

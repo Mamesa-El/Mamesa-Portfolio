@@ -1,11 +1,70 @@
 ---
 layout: default
-modal-id: 4
+modal-id: 3
+title: "Flight Price Delay Prediction"
 date: 2014-07-15
-img: llmchat.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: plane.png
+alt: "Flight Price Delay Prediction"
+project-date: "April 2014"
+category: "End-to-End Machine Learning"
+full_content: |
+
+    <div style="text-align: center;">
+        <img src="img/Python-logo-notext.svg" width="7%" alt="python">
+        <!-- ------------------------------------- -->
+        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+        <!-- ------------------------------------- -->
+        <img src="img/Jupyter_logo.png" width="7%" alt="jupyter notebook">
+        <!-- ------------------------------------- -->
+        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+        <!-- ------------------------------------- -->
+        <img src="img/GitHub_Invertocat_Logo.png" width="7%" alt="github">
+        <!-- ------------------------------------- -->
+        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+        <!-- ------------------------------------- -->
+        <img src="img/Databricks_Logo.png" width="15%" alt="databrick">
+        <!-- ------------------------------------- -->
+        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+        <!-- ------------------------------------- -->
+        <img src="img/SQL database.png" width="15%" alt="SQL database">
+        <!-- ------------------------------------- -->
+        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+        <!-- ------------------------------------- -->
+        <img src="img/pysparks.jpeg" width="15%" alt="pyspark">
+        <!-- ------------------------------------- -->
+        <img src="https://user-images.githubusercontent.com/1393562/190876627-da2d09cb-5ca0-4480-8eb8-830bdc0ddf64.svg" width="7%" alt="Plus Sign">
+        <!-- ------------------------------------- -->
+        <img src="img/MLflow-logo-final-black.png" width="15%" alt="MLFlow">
+        <!-- ------------------------------------- -->
+        
+    <div style="text-align: left;">
+        <h6 class="section-title">Project Summary:</h6>
+        <p>This project focused on reducing United Airlines flight delays by analyzing flight and weather data. Using datasets from the U.S. Department of Transportation and the National Oceanic and Atmospheric Administration (NOAA), the team processed over 12 million records. The main objective was to engineer features and select the optimal model to predict flight delays effectively.</p>
+    </div>
+
+    <div style="text-align: left;">
+        <h6 class="section-title">Exploratory Data Analysis:</h6>
+        <p>EDA involved analyzing the structure of flight, weather, and station datasets. Key insights included the correlation between weather conditions and flight delays, and identifying trends across different times and locations. Data imputation and cleaning techniques were applied to handle missing values and outliers in the large dataset.</p>
+    </div>
+
+    <div style="text-align: left;">
+        <h6 class="section-title">Model Pipeline:</h6>
+        <p>The model pipeline consisted of several stages: data preprocessing, feature engineering, model selection, and hyperparameter tuning. Logistic regression, Random Forests, and Gradient Boosting Machines were considered, with the final pipeline optimized for performance and scalability using the entire dataset.</p>
+    </div>
+
+    <div style="text-align: left;">
+        <h6 class="section-title">Statistical Techniques:</h6>
+        <p>Feature engineering techniques, including one-hot encoding and scaling, were applied to ensure model robustness. Various statistical methods like cross-validation, hyperparameter tuning, and model ensembling were employed to improve model accuracy. Techniques to handle imbalanced data, such as undersampling and SMOTE, were also explored.</p>
+    </div>
+
+    <div style="text-align: left;">
+        <h6 class="section-title">Model Performance Evaluation:</h6>
+        <p>The model's performance was evaluated using metrics such as accuracy, precision, recall, and F1-score. The final model achieved significant improvements over baseline models, with a notable increase in precision, reducing false positives in flight delay predictions. Scalability was also addressed, allowing the model to handle the large dataset efficiently.</p>
+    </div>
+
+    <div style="text-align: left;">
+        <h6 class="section-title">Achievements:</h6>
+        <p>The team successfully reduced flight delay prediction errors by optimizing the machine learning pipeline. Key accomplishments include processing large datasets with over 12 million records, creating a scalable pipeline, and improving delay prediction accuracy by 20% compared to baseline models.</p>
+    </div>
+
 ---

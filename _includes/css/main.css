@@ -3,16 +3,19 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-ul, ol {
+ ul, ol {
     font-size: 20px !important;
 }
 
 body {
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif; /* Set Roboto globally for body */
+    font-size: 16px; /* Base font size */
 }
 
 p {
     font-size: 20px;
+    line-height: 1.6; /* Improve readability */
 }
 
 p.small {
@@ -26,18 +29,55 @@ a:active,
 a.active {
     outline: 0;
     color: #{{ site.color.primary }};
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Emphasize links */
+}
+/* Ensure section titles are larger than normal text */
+h1 {
+    font-size: 3.0em; /* Largest for main heading */
+    font-weight: 700;
 }
 
-h1,
+h2 {
+    font-size: 2.5em; /* Second largest */
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2em; /* Medium-sized heading */
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.75em; /* Smaller but still larger than body text */
+    font-weight: 700;
+}
+
+h5, h6 {
+    font-size: 1.5em; /* Smallest headings */
+    font-weight: 700;
+}
+
+/* Add an underline to section titles */
+.section-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #333; /* Adds a solid underline */
+    display: inline-block; /* Limits the underline to the text width */
+    padding-bottom: 0.2em; /* Adds some space between the text and the underline */
+    color: #333; /* Text color */
+}
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold for headings */
+} */
 
 hr.star-light,
 hr.star-primary {
@@ -83,17 +123,12 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-/* header {
-    text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
-} */
+/* Header */
 header {
     text-align: center;
     color: #fff;
     background: #000000; /* Dark grey */
 }
-
 
 header .container {
     padding-top: 100px;
@@ -108,14 +143,14 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 700; /* Bold name in intro */
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 300; /* Lighter weight for skills text */
 }
 
 @media(min-width:768px) {
@@ -125,11 +160,11 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 4.75em; /* Larger name on bigger screens */
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.75em; /* Larger skills text */
     }
 }
 
@@ -157,9 +192,10 @@ header .intro-text .skills {
     }
 }
 
+/* Navbar */
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -180,20 +216,20 @@ header .intro-text .skills {
     border: 0;
 }
 
+/* Section Styling */
 section {
     padding: 100px 0;
+    font-family: 'Roboto', sans-serif; /* Roboto for sections */
 }
 
 section h2 {
     margin: 0;
     font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold headings for sections */
 }
 
-/* section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
-} */
- section.success {
+section.success {
     color: #fff;
     background: #000000;
 }
@@ -208,6 +244,7 @@ section h2 {
     }
 }
 
+/* Portfolio */
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -244,6 +281,7 @@ section h2 {
     text-align: center;
     font-size: 20px;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -277,20 +315,14 @@ section h2 {
       flex: 1 0 49%;
       max-width: 49%;
     }
-  }
-  @media (min-width: 960px) {
+}
+
+@media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 32%;
       max-width: 32%;
     }
-  }
-  /* A large grid might need four columns on widescreen layouts */
-  /* @media (min-width: 1380px) {
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 23.5%;
-      max-width: 23.5%;
-    }
-  } */
+}
 
 .btn-outline {
     margin-top: 15px;
@@ -329,6 +361,7 @@ section h2 {
     background: 0 0;
     box-shadow: none!important;
     resize: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .floating-label-form-group label {
@@ -340,7 +373,6 @@ section h2 {
     font-size: .85em;
     line-height: 1.764705882em;
     vertical-align: middle;
-    vertical-align: baseline;
     opacity: 0;
     -webkit-transition: top .3s ease,opacity .3s ease;
     -moz-transition: top .3s ease,opacity .3s ease;
@@ -368,6 +400,7 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer h3 {
@@ -426,6 +459,7 @@ footer .footer-below {
     outline: 0;
 }
 
+/* Modal */
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -440,6 +474,8 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .portfolio-modal .modal-content img {
@@ -490,7 +526,6 @@ footer .footer-below {
 }
 
 /* Fix modal mouse wheel issues */
-/* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
