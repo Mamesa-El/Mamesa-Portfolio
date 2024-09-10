@@ -4,7 +4,7 @@ email: mamesa.el@berkeley.edu
 url:  https://github.com/Mamesa-El/Mamesa-Portfolio
 description: "Accomplished Data Scientist specializing in machine learning, NLP, and generative AI solutions. Proficient in Python, TensorFlow, PyTorch, and AWS SageMaker, with expertise in predictive analytics and real-world AI/ML applications."
 keywords: "Data Scientist, Machine Learning, NLP, Python, TensorFlow, PyTorch, AWS SageMaker, AI, Predictive Analytics, RAG, LLM"
-skills: "Python, SQL, AWS SageMaker, Data Visualization, RESTful APIs, Git/GitHub, Docker, Google Cloud, Web Scraping, Statistics, Client Communication, Project Management, Calculus"
+skills: "Specialized in Python, SQL, AWS SageMaker, TensorFlow, PyTorch, NLP, Data Visualization, RESTful APIs, and Docker. Offering unique insights into NLP, mathematical modeling, and a passion for exploring diverse industries to deliver innovative, data-driven solutions."
 meta_author: Mamesa El
 
 # Google webmaster tools
@@ -34,30 +34,31 @@ color:
 footer:
   copyright: Dr. Henry Jekyll
   location: Location
-  social: Around the Web
+  social: My Social Media Platforms
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  # - title: twitter
+  #   url: http://twitter.com/jekyllrb
+  # - title: facebook
+  #   url:
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket
+  #   url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/in/mamesael/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/Mamesa-El/Data-Science-Portfolio.git
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Seattle, Washington
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Credit to Bootstrap for providing the orginal source code.'
 # Build settings
 markdown: kramdown
 permalink: pretty
