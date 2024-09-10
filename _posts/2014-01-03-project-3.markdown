@@ -113,8 +113,6 @@ full_content: |
     <div style="text-align: left;">
         <h6 class="section-title">Achievements:</h6>
         <p>This project successfully demonstrates the effective use of advanced machine learning techniques, particularly with XGBoost and Multilayer Perceptron (MLP) models, to predict outcomes based on a 60-month dataset. Through careful application of feature engineering, hyperparameter tuning, and sampling methods, the XGBoost model emerged as the superior model due to its higher F1 score and faster runtime.</p>
-        
-        <h4>Key achievements include:</h4>
         <ul>
             <li><strong>Improved Model Performance:</strong> XGBoost achieved an F1 score of 78.3% after hyperparameter tuning, with its final test set F1 score of 77.2% proving its robustness.</li>
             <li><strong>Handling Imbalanced Data:</strong> By introducing the <code>scale_pos_weight</code> hyperparameter, the model efficiently addressed class imbalances, improving classification accuracy.</li>
