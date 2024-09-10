@@ -87,57 +87,28 @@ full_content: |
 
     <div style="text-align: left;">
         <h6 class="section-title">Model Performance Evaluation:</h6>
-        <p>The evaluation compared the performance of XGBoost and a Multilayer Perceptron (MLP) model on a 60-month dataset. Both models were trained on the first three years, validated on the fourth, and tested on the fifth year. XGBoost was chosen as the best-performing model due to its higher F1 score and faster runtime compared to MLP.
+
+        <p>
+        The top four models were Logistic Regression, Random Forest, XGBoost, and Multilayer Perceptron. In Figure 3, the performance of each model is measured by the F1 score.
+
+        The evaluation tables in figure 2 below compared the performance of XGBoost and a Multilayer Perceptron (MLP) model on a 60-month dataset. Both models were trained on the first three years, validated on the fourth, and tested on the fifth year. XGBoost was chosen as the best-performing model due to its higher F1 score and faster runtime compared to MLP.
 
         XGBoost's initial F1 score plateaued at 75.6%, but after tuning the scale_pos_weight hyperparameter to handle imbalanced data, it improved to 78.3%. Using time series cross-validation, the model's F1 score decreased to 73.3%, but on the held-out test set, it performed satisfactorily with an F1 score of 77.2%.</p>
     </div>
 
     <div style="text-align: center;">
-        <table>
-            <thead>
-                <tr>
-                    <th>Model</th>
-                    <th>F1 Score (Train)</th>
-                    <th>F1 Score (Validation)</th>
-                    <th>Model Runs</th>
-                    <th>Approx. Runtime</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>XGBoost (XGB)</td>
-                    <td>78.1%</td>
-                    <td>77.6%</td>
-                    <td>50</td>
-                    <td>12~18 minutes</td>
-                </tr>
-                <tr>
-                    <td>XGBoost (XGB) - Time Series Cross Validation</td>
-                    <td>77.6%</td>
-                    <td>73.3%</td>
-                    <td>3</td>
-                    <td>~15 minutes</td>
-                </tr>
-                <tr>
-                    <td>XGBoost (XGB) - Holdout</td>
-                    <td>77.9%</td>
-                    <td>77.2%</td>
-                    <td>1</td>
-                    <td>12~18 minutes</td>
-                </tr>
-                <tr>
-                    <td>Multilayer Perceptron (MLP)</td>
-                    <td>75.1%</td>
-                    <td>74.9%</td>
-                    <td>3</td>
-                    <td>20~40 minutes</td>
-                </tr>
-            </tbody>
-        </table>
+        <img src="img\Projects\Flight Price Delay Prediction\Xgboost_multipercept_table.png" alt="box-cox-transformation" style="max-width: 100%; height: auto;">
     </div>
 
     <div style="text-align: center;">
-    <em>Figure 1: Table 1: Model Performance Comparison for XGBoost and Multilayer Perceptron (MLP).</em>
+    <em>Figure 2: Model Performance Comparison for XGBoost and Multilayer Perceptron (MLP).</em>
+
+    <div style="text-align: center;">
+        <img src="iimg\Projects\Flight Price Delay Prediction\model_perfomance.png" alt="box-cox-transformation" style="max-width: 100%; height: auto;">
+    </div>
+
+    <div style="text-align: left;">
+    <em>Figure 3: Models performance evaluation.</em>
 
     <div style="text-align: left;">
         <h6 class="section-title">Achievements:</h6>
