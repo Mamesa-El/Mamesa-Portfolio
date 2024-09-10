@@ -104,10 +104,10 @@ full_content: |
     <em>Figure 2: Model Performance Comparison for XGBoost and Multilayer Perceptron (MLP).</em>
 
     <div style="text-align: center;">
-        <img src="iimg\Projects\Flight Price Delay Prediction\model_perfomance.png" alt="box-cox-transformation" style="max-width: 100%; height: auto;">
+        <img src="img\Projects\Flight Price Delay Prediction\model_perfomance.png" alt="box-cox-transformation" style="max-width: 100%; height: auto;">
     </div>
 
-    <div style="text-align: left;">
+    <div style="text-align: center;">
     <em>Figure 3: Models performance evaluation.</em>
 
     <div style="text-align: left;">
