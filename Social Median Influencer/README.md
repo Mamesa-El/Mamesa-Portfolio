@@ -14,9 +14,11 @@
 
 This project analyzed social media influencers on platforms like Instagram, YouTube, and TikTok to understand engagement patterns and identify key factors contributing to influencer success. Using data from Kaggle, I focused on analyzing influencer categories, engagement metrics, and subscriber growth.
 ![Box Cox Transformation](./Images/box_cox_transformation.png)
+
 *Figure 1: The Box-Cox transformation was applied to normalize skewed data distributions for more accurate statistical analysis.*
 
 ![Top Genre](./Images/Top%20Genres.png)
+
 *Figure 2: Distribution of Top Influencers by Genre.*
 
 **Key Insights**:
