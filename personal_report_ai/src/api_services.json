@@ -1,0 +1,14 @@
+{
+"weather": {
+    "app_module": "weather_app",
+    "port": 8001
+},
+"news": {
+    "app_module": "news_app",
+    "port": 8002
+},
+"jobs": {
+    "app_module": "jobs_app", 
+    "port": 8003
+}
+}
